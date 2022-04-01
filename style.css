@@ -1,0 +1,41 @@
+html {
+	cursor: none !important;
+}
+
+body {
+	background-color: #3c3c3c;
+	height: 100%;
+}
+
+#mycanvas
+{
+   position: relative;
+   top: 0px;
+   left: 0px;
+	border-radius: 50%;
+	outline: 3px solid white;
+   background-color: black;
+	box-shadow: 1px 5px 11px rgba(0, 0, 0, 0.5);
+	transition: 10ms ease-in-out;
+}
+
+#mycanvas.clicked {
+	background-color: white;
+	transform: scale(1.3);
+	transition: 200ms ease-in-out;
+}
+
+#color {
+	position: fixed;
+	top: 0;
+	left: 20px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: gray;
+	letter-spacing: 1px;
+	font-size: 1.3em;
+	filter:invert(100%) contrast(200%);
+	padding: 30px 15px;
+	border: 1px solid black;
+	border-top: none;
+}
